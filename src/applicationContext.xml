@@ -21,8 +21,8 @@
         <property name="driver" value="com.mysql.jdbc.Driver"/>
         <property name="driverUrl"
                   value="jdbc:mysql://localhost:3306/DB_FITNESS?useUnicode=true&amp;characterEncoding=utf-8&amp;zeroDateTimeBehavior=convertToNull&amp;transformedBitIsBoolean=true"/>
-        <property name="user" value="fitness"/>
-        <property name="password" value="atSport"/>
+        <property name="user" value="whoami"/>
+        <property name="password" value="foolish"/>
         <property name="maximumConnectionCount" value="20"/>
     </bean>
 
@@ -30,7 +30,7 @@
 
 
     <!-- kaptcha 验证码 -->
-    <!--bean id="idongmiDefaultKaptcha" class="cn.atsport.www.util.IdongmiDefaultKaptcha"
+    <!--bean id="idongmiDefaultKaptcha" class="com.bbr.www.util.DefaultKaptcha"
           scope="singleton">
         <property name="config">
             <bean class="com.google.code.kaptcha.util.Config">

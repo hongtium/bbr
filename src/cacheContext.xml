@@ -2,7 +2,7 @@
 	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-2.5.xsd">
 
-	<bean name="common" class="com.ipower.rich.factory.SpyMemcachedBean" destroy-method="shutdown">
+	<bean name="common" class="com.bbr.www.factory.SpyMemcachedBean" destroy-method="shutdown">
 		<property name="ipList">
 			<value>MC1:11211,MC1:11212</value>
 		</property>
